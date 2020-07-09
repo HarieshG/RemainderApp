@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".status">
+    <View
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginBottom="231dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/statushead"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/montserrat_bold"
+
+            android:gravity="center"
+            android:text="Market"
+            android:textColor="#FFFF"
+            android:textSize="40dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/statushead"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/undraw_everyday_design_gy64" />
+
+        <TextView
+            android:id="@+id/desstatus"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+
+            android:layout_below="@+id/imageView5"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Us the slkv aslkbj asdkv alskdjvkasjv lerhihjdlknvf;oierj"
+            android:textColor="#FFFF"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <View
+            android:id="@+id/junge"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_below="@+id/desstatus"
+            android:layout_marginTop="0dp"
+
+            android:layout_marginBottom="57dp"
+            android:background="@drawable/view2" />
+
+        <TextView
+            android:layout_width="374dp"
+            android:layout_height="69dp"
+            android:layout_alignTop="@+id/junge"
+
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="-5dp"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Status : Not Completed"
+            android:textColor="#F44336"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="411dp"
+        android:layout_height="232dp"
+        android:layout_marginTop="499dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/editbutton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="125dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="136dp"
+            android:layout_marginRight="136dp"
+            android:background="@drawable/bluebutton"
+            android:gravity="center"
+            android:text="Edit"
+            android:textColor="#FFFF"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/deletebutton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+
+            android:layout_below="@+id/editbutton"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="125dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="136dp"
+            android:layout_marginRight="136dp"
+            android:background="@drawable/bluebutton"
+            android:text="Delete"
+            android:textColor="#FFFF"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/donebutton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+
+            android:layout_below="@+id/deletebutton"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="126dp"
+            android:layout_marginLeft="126dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="135dp"
+            android:layout_marginRight="135dp"
+            android:background="@drawable/bluebutton"
+            android:text="Done"
+            android:textColor="#FFFF"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

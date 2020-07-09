@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+
+    android:padding="10dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="375dp"
+        android:layout_height="100dp"
+        android:elevation="40dp"
+
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="300dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/organe"
+
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/idhead"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginBottom="83dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Hariesh"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.307" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not Completed"
+                android:textColor="@color/colorPrimaryDark"
+                app:layout_constraintStart_toStartOf="@+id/idhead"
+                app:layout_constraintTop_toBottomOf="@+id/idhead" />
+
+            <TextView
+                android:id="@+id/deschead"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/montserrat"
+                android:text="This is the place where the description"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/idhead" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
